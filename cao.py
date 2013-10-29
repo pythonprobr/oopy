@@ -20,3 +20,7 @@ class Cao(Mamifero):
 
     def __repr__(self):
         return 'Cao(%r)' % self.nome
+
+    def __eq__(self, outro):
+        return (isinstance(outro, Cao) and
+            self.__dict__ == outro.__dict__)

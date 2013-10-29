@@ -9,6 +9,13 @@ permite construir uma instância igual::
     >>> rex = Cao('Rex')
     >>> rex
     Cao('Rex')
+    >>> rex2 = eval(repr(rex))
+    >>> rex2.nome
+    'Rex'
+    >>> rex2
+    Cao('Rex')
+    >>> rex == rex2
+    True
 
 A representação amigável é simplesmente o nome do cão::
 
