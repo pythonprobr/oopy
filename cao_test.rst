@@ -1,3 +1,7 @@
+=========================
+Testes com a classe `Cao`
+=========================
+
 Uma instância de `Cao` tem uma representação de depuração (`repr`) que
 permite construir uma instância igual::
 
