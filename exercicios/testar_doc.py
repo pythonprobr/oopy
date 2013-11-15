@@ -1,4 +1,4 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 
 import sys
 import doctest
@@ -9,11 +9,11 @@ def main():
         return 2
     else:
         nome_doc = sys.argv[1]
-        qt_falhas, qt_testes = doctest.testfile(nome_doc, 
-                                module_relative=False, 
+        qt_falhas, qt_testes = doctest.testfile(nome_doc,
+                                module_relative=False,
                                 optionflags=doctest.REPORT_ONLY_FIRST_FAILURE)
         if qt_falhas:
-            print ' ATENCAO: exibindo apenas o primeiro teste que falhou!'.rjust(79, '*')
+            print(' ATENCAO: exibindo apenas o primeiro teste que falhou!'.rjust(79, '*'))
             return 1
     return 0
 
