@@ -113,7 +113,7 @@ Para facilitar o seu trabalho, no módulo `inplace.py`_ você encontrará uma fu
     >>> l
     [2, 1, 4, 3]
 
-Note que, em vez de embaralhar nossa função fake apenas troca cada item em uma
+Note que, em vez de embaralhar, nossa função apenas troca cada item de uma
 posição par pelo item da posição ímpar seguinte. Note também que a função
 ``pairswap`` opera modificando a sequência *in-place*, ou seja, ela manipula
 os itens da própria sequência passada como argumento, e devolve ``None``. Em
