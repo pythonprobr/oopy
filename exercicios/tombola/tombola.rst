@@ -15,7 +15,7 @@ Material necessário
 
 Além do interpretador Python e seu editor favorito, você vai precisar de três
 arquivos que estão no diretório `exercicios/tombola`_ no repositório
-`oturing/oopy`_ no GitHub:
+`pythonprobr/oopy`_ no GitHub:
 
 * ``tombola.rst``: este arquivo que você está lendo agora, com instruções e
   ``doctests;
@@ -33,9 +33,9 @@ arquivos que estão no diretório `exercicios/tombola`_ no repositório
 * ``tombola_bonus.rst``: uma questão mais avançada, para você considerar
   depois que tiver terminado esta lista (se sobrar tempo);
 
-.. _exercicios/tombola: https://github.com/oturing/oopy/tree/master/exercicios/tombola
+.. _exercicios/tombola: https://github.com/pythonprobr/oopy/tree/master/exercicios/tombola
 
-.. _oturing/oopy: https://github.com/oturing/oopy
+.. _pythonprobr/oopy: https://github.com/pythonprobr/oopy
 
 
 2.0 Testando a tômbola básica
@@ -72,7 +72,7 @@ o mesmo resultado; porém são resultados que não podemos prever).
 
 Execute os testes deste arquivo agora. Todos os testes acima devem passar.
 
-.. _exercicios/tombola/tombola.py: https://github.com/oturing/oopy/blob/master/exercicios/tombola/tombola.py
+.. _exercicios/tombola/tombola.py: https://github.com/pythonprobr/oopy/blob/master/exercicios/tombola/tombola.py
 
 2.1. Injeção de dependência para facilitar testes
 =================================================
@@ -121,7 +121,7 @@ geral, funções em Python que operam *in-place* devolvem ``None`` como uma
 maneira de lembrar ao programador que ela modifica o próprio objeto e não cria
 um novo.
 
-.. _inplace.py: https://github.com/oturing/oopy/blob/master/exercicios/tombola/inplace.py
+.. _inplace.py: https://github.com/pythonprobr/oopy/blob/master/exercicios/tombola/inplace.py
 
 
 Quando seu exercício estiver pronto, esses testes deverão passar::
@@ -182,5 +182,5 @@ no momento da instanciação. O módulo ``tombola_bug`` contém doctests
 embutidos. Use o comanto ``python -m doctest tombola_bug.py`` para executar
 os testes, depois leia o texto e o código para resolver o problema proposto.
 
-.. _exercicios/tombola/tombola_bug.py: https://github.com/oturing/oopy/blob/master/exercicios/tombola/tombola.py
+.. _exercicios/tombola/tombola_bug.py: https://github.com/pythonprobr/oopy/blob/master/exercicios/tombola/tombola.py
 
