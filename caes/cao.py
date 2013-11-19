@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class Mamifero(object):
     """vertebrados dotados de glândulas mamárias"""
 
