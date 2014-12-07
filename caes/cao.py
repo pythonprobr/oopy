@@ -36,14 +36,14 @@ class Pequines(Cao):
     """
     nervoso = True
 
-class Grande(object):
+class GrandeMixin(object):
     """ Mixin: muda o latido"""
     def latir(self, vezes=1):
         # faz de conta que cães grandes não mudam
         # seu latido quando nervosos
         print(self.nome + ':' + ' Wuff!' * vezes)
 
-class Mastiff(Grande, Cao):
+class Mastiff(GrandeMixin, Cao):
     """ O mastiff late diferente:
 
          >>> atos = Mastiff('Atos')
@@ -51,7 +51,7 @@ class Mastiff(Grande, Cao):
          Atos: Wuff!
     """
 
-class SaoBernardo(Grande, Cao):
+class SaoBernardo(GrandeMixin, Cao):
     """O São Bernardo serve conhaque:
 
         >>> sansao = SaoBernardo('Sansao')
