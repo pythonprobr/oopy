@@ -1,5 +1,5 @@
 ==========================================
-Lista 2: Variações sobre o tema da tômbola
+Variações sobre o tema da tômbola
 ==========================================
 
 .. contents:: Sumário
