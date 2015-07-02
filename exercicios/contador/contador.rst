@@ -71,15 +71,14 @@ No Windows, isso deve funcionar usando ``cls`` em vez de ``clear``, desde que
 o caminho até o executável ``python`` esteja no seu ``PATH`` (os instaladores
 de Python da ActiveState fazem essa gentileza para você automaticamente).
 
-Uma outra opção, se você estiver utilizando um Linux ou MacOS X é utilizar o 
+Uma outra opção, se você estiver utilizando um Linux ou MacOS X é utilizar o
 comando "watch" para ter um feedback constante no terminal:
 
     $ watch python testar_doc.py contador.rst
 
 
-Em caso de dúvidas, escreva para o `grupo de discussão Oficinas Turing`_.
+Em caso de dúvidas, escreva para o grupo de discussão do curso.
 
-.. _grupo de discussão Oficinas Turing: http://goo.gl/uABXr
 
 Dicas de implementação
 ----------------------
@@ -88,8 +87,8 @@ Ao resolver estes exercícios, dedique alguns minutos a pensar como você
 implementaria cada solução antes de ler as dicas de implementação.
 
 Se você encontrar uma forma melhor de implementar, ou quiser discutir
-alternativas, mande suas idéias para o `grupo de discussão Oficinas
-Turing`_.
+alternativas, mande suas idéias para o grupo do curso.
+
 
 Extra
 -----
@@ -111,7 +110,7 @@ seu ambiente para rodar os doctests deste arquivo que você está lendo agora.
 
 O módulo `contador.py`_ contém a implementação de uma classe ``Contador``.
 
-.. _contador.py: https://github.com/oturing/oopy/blob/master/exercicios/contador/contador.py
+.. _contador.py: https://github.com/pythonprobr/oopy/blob/master/exercicios/contador/contador.py
 
 Instâncias da classe ``Contador`` servem para contar itens, por exemplo,
 contar as ocorrências de determinadas palavras em um texto.
@@ -169,7 +168,8 @@ classe ``ContadorAmigavel``, conforme as instruções do Exercício 1.2.
 Se você conseguiu rodar o teste e ver o erro ``NameError: name
 'ContadorAmigavel' is not defined``, parabéns, você completou o Exercício 1.1!
 
-Em caso de dúvidas, escreva para o `grupo de discussão Oficinas Turing`_.
+Em caso de dúvidas, escreva para o grupo de discussão do curso.
+
 
 Extra
 -----
